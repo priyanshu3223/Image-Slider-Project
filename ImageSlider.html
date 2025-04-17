@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Slider</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="slider-container">
+    <div class="slider">
+        <img src="https://ibb.co/KjN8w8BG" alt="Image 1" class="slide">
+<img src="https://images.unsplash.com/photo-1593642532400-2682810df593" alt="Image 2" class="slide">
+<img src="https://images.unsplash.com/photo-1587502530347-b7ed0f7aaf91" alt="Image 3" class="slide">
+        
+      <!-- Add more images as needed -->
+    </div>
+    <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+    <button class="next" onclick="changeSlide(1)">&#10095;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
